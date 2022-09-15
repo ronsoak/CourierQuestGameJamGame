@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:GroupBox name="outerBox" style="flex-grow: 1; -unity-font: url(&apos;project://database/Assets/Materials/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=d4ca06583ee4d4913bb0ecb55eddd108&amp;type=3#PressStart2P-Regular&apos;); -unity-font-definition: none; color: rgb(213, 255, 0);">
+        <ui:GroupBox name="topBox" style="flex-grow: 1; align-items: center;">
+            <ui:Label text="Distance" display-tooltip-when-elided="true" name="JourneyAmount" style="position: absolute; left: 1px; top: 0; color: rgb(237, 255, 0); font-size: 12px; -unity-font: url(&apos;project://database/Assets/Materials/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=d4ca06583ee4d4913bb0ecb55eddd108&amp;type=3#PressStart2P-Regular&apos;); padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0;" />
+            <ui:Label text="TIME" display-tooltip-when-elided="true" name="TimeAmount" style="position: absolute; left: auto; top: 1px; color: rgb(255, 245, 0); font-size: 20px; right: 1px;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="midBox" style="flex-grow: 1; align-items: center;">
+            <ui:Label text="You Won!" display-tooltip-when-elided="true" name="winningText" style="position: relative; left: auto; top: auto; color: rgb(255, 252, 0); font-size: 35px; -unity-font: url(&apos;project://database/Assets/Materials/PressStart2P-Regular.ttf?fileID=12800000&amp;guid=d4ca06583ee4d4913bb0ecb55eddd108&amp;type=3#PressStart2P-Regular&apos;); align-items: center;" />
+            <ui:Label text="Game Paused" display-tooltip-when-elided="true" name="pauseText" style="align-items: center;" />
+            <ui:Button text="Restart" display-tooltip-when-elided="true" name="restartGame" />
+            <ui:Button text="Exit" display-tooltip-when-elided="true" name="exitGameScene" />
+            <ui:Label text="Label" display-tooltip-when-elided="true" name="finalTimeLabel" style="padding-top: 20px;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="botBox" style="flex-grow: 1; align-items: center;" />
+    </ui:GroupBox>
+</ui:UXML>
